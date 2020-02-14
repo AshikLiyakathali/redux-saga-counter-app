@@ -17,6 +17,9 @@ const reducer = (state = initialState, action) => {
     case "RESET_ASYNC":
       newState.count = 0;
       break;
+
+    default:
+      newState.count = 0;
   }
   return newState;
 };
